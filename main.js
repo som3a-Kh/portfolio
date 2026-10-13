@@ -24,9 +24,7 @@ document
 // typing
 const roles = [
   "Frontend Developer",
-  "React Developer",
-  "UI Animator",
-  "Full Stack Learner",
+  "Backend Developer",
 ];
 let ri = 0,
   ci = 0,
@@ -47,15 +45,20 @@ let ri = 0,
 })();
 // skills marquee
 const sk = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "React",
   "PHP",
   "Laravel",
-  "Git",
   "REST API",
+  "MySQL",
+  "HTML",
+  "CSS",
+  "bootstrap",
+  "Tailwind",
+  "jQuery",
+  "JavaScript",
+  "typeScript",
+  "React",
   "Responsive",
+  "Git",
   "Python",
 ];
 $("#track").innerHTML = [...sk, ...sk].map((s) => `<span>${s}</span>`).join("");

@@ -1,361 +1,352 @@
 <!doctype html>
 <html lang="en" data-theme="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Ismail Khalifa | Frontend Developer</title>
-    <meta
-      name="description"
-      content="Ismail Khalifa, Frontend Developer building fast, animated interfaces with React."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="glow"></div>
-    <header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ismail Khalifa | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="glow"></div>
+  <header>
+    <div class="wrap">
+      <nav>
+        <a href="#home" class="logo">Ismail Khalifa</a>
+        <button id="menu" aria-label="Toggle menu">☰</button>
+        <div class="links" id="links">
+          <a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a
+            href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+          <button id="theme" aria-label="Toggle dark and light theme">
+            ☾
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
       <div class="wrap">
-        <nav>
-          <a href="#home" class="logo">Ismail Khalifa</a>
-          <button id="menu" aria-label="Toggle menu">☰</button>
-          <div class="links" id="links">
-            <a href="#about">About</a><a href="#services">Services</a
-            ><a href="#projects">Projects</a><a href="#skills">Skills</a
-            ><a href="#experience">Experience</a><a href="#contact">Contact</a>
-            <button id="theme" aria-label="Toggle dark and light theme">
-              ☾
-            </button>
+        <div>
+          <p class="hi">Hi, I'm</p>
+          <h1>
+            <span><i>Ismail</i></span><span><i>Khalifa</i></span>
+          </h1>
+          <p class="role"><b id="type"></b><span class="cur"></span></p>
+          <p class="lead">
+            I'm a Backend Developer specializing in PHP and Laravel, building
+            secure, scalable, and efficient web applications. I focus on
+            developing robust backend systems, designing databases, and
+            building APIs, while also creating fast, clean, and interactive
+            user interfaces with React.
+          </p>
+          <div class="btns">
+            <a class="btn solid" href="#projects">View my work</a><a class="btn" href="cv/Ismail-Khalifa-CV.pdf"
+              download>Download CV</a>
           </div>
-        </nav>
+          <div class="stats">
+            <div>
+              <b data-n="1">0</b><span>NTI Training Certificate</span>
+            </div>
+            <div>
+              <b data-n="2">0</b><span>Bravo Training Certificates</span>
+            </div>
+            <div>
+              <b data-n="3">0</b><span>Development Tracks: Frontend & Backend</span>
+            </div>
+            <div>
+              <b data-n="4">0</b><span>Backend Focus: PHP & Laravel</span>
+            </div>
+          </div>
+        </div>
+        <div class="photo" id="photo">
+          <div class="ring"></div>
+          <div class="frame" id="frame">
+            <div class="ini">IK</div>
+            <img src="images/me.jpg.jpeg" alt="Portrait of Ismail Khalifa" onerror="this.remove()" />
+          </div>
+          <span class="badge b1">React</span><span class="badge b2">PHP</span><span class="badge b3">MySQL</span>
+          <span class="badge b4">Laravel</span>
+          <span class="badge b5">JavaScript</span>
+        </div>
       </div>
-    </header>
+      <div class="scroll"></div>
+    </section>
 
-    <main>
-      <section class="hero" id="home">
-        <div class="wrap">
-          <div>
-            <p class="hi">Hi, I'm</p>
-            <h1>
-              <span><i>Ismail</i></span
-              ><span><i>Khalifa</i></span>
-            </h1>
-            <p class="role"><b id="type"></b><span class="cur"></span></p>
-            <p class="lead">
-              I build fast, clean and animated web interfaces with React, and I
-              can wire them to a Laravel backend.
-            </p>
-            <div class="btns">
-              <a class="btn solid" href="#projects">View my work</a
-              ><a class="btn" href="cv/Ismail-Khalifa-CV.pdf" download
-                >Download CV</a
-              >
-            </div>
-            <div class="stats">
-              <div>
-                <b data-n="1">0</b><span>NTI full stack certificate</span>
-              </div>
-              <div>
-                <b data-n="2">0</b><span>Stacks: React and Laravel</span>
-              </div>
-              <div><b data-n="3">0</b><span>Year of AI studies</span></div>
-            </div>
-          </div>
-          <div class="photo" id="photo">
-            <div class="ring"></div>
-            <div class="frame" id="frame">
-              <div class="ini">IK</div>
-              <img
-                src="images/ismail.jpg"
-                alt="Portrait of Ismail Khalifa"
-                onerror="this.remove()"
-              />
-            </div>
-            <span class="badge b1">React</span
-            ><span class="badge b2">JavaScript</span
-            ><span class="badge b3">Laravel</span>
-          </div>
-        </div>
-        <div class="scroll"></div>
-      </section>
-
-      <section id="about">
-        <div class="wrap about">
-          <div class="rv">
-            <h2>About me</h2>
-            <p>
-              I'm a frontend developer who cares about how an interface feels:
-              quick to load, smooth to use and easy to read on any screen.
-            </p>
-            <p>
-              I'm a fourth-year AI student at the Faculty of Computers and
-              Information, Zagazig University, and I finished a full stack track
-              at NTI with React on the frontend and PHP Laravel on the backend.
-            </p>
-          </div>
-          <div class="rv card">
-            <h3>What I focus on</h3>
-            <p>
-              Turning designs into responsive React pages, adding motion that
-              helps users, and connecting the interface to real APIs and
-              authentication.
-            </p>
-            <div class="tags">
-              <span>Responsive</span><span>Animations</span
-              ><span>REST APIs</span><span>Clean code</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="services">
-        <div class="wrap">
-          <h2 class="rv">Services</h2>
-          <p class="sub rv">What I can build for you.</p>
-          <div class="grid">
-            <div class="card rv">
-              <div class="ic">🖥️</div>
-              <h3>Websites and landing pages</h3>
-              <p>
-                Fast, responsive sites in HTML, CSS and JavaScript for
-                businesses, portfolios and campaigns.
-              </p>
-            </div>
-            <div class="card rv">
-              <div class="ic">⚛️</div>
-              <h3>React web apps</h3>
-              <p>
-                Single-page apps and dashboards with reusable components and
-                clean state handling.
-              </p>
-            </div>
-            <div class="card rv">
-              <div class="ic">🔌</div>
-              <h3>Backend integration</h3>
-              <p>
-                Connecting your interface to Laravel APIs, including login,
-                signup and protected pages.
-              </p>
-            </div>
-            <div class="card rv">
-              <div class="ic">✨</div>
-              <h3>UI animations</h3>
-              <p>
-                Smooth transitions, scroll effects and micro-interactions that
-                make a product feel polished.
-              </p>
-            </div>
-            <div class="card rv">
-              <div class="ic">📱</div>
-              <h3>Responsive design</h3>
-              <p>
-                Layouts that work on phones, tablets and desktops, with dark and
-                light themes.
-              </p>
-            </div>
-            <div class="card rv">
-              <div class="ic">🛠️</div>
-              <h3>Fixes and improvements</h3>
-              <p>
-                Bug fixes, speed-ups and redesigns for existing frontend
-                projects.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="projects">
-        <div class="wrap">
-          <h2 class="rv">Projects</h2>
-          <p class="sub rv">Selected work. More on my GitHub.</p>
-          <div class="grid">
-            <div class="card rv">
-              <h3>Gym Dashboard (NTI team project)</h3>
-              <p>
-                A gym management dashboard built with a team during the NTI
-                program. I built the backend login and signup (authentication).
-              </p>
-              <div class="tags">
-                <span>Auth</span><span>Backend</span><span>Team project</span>
-              </div>
-              <a
-                class="plink"
-                href="https://github.com/som3a-Kh"
-                target="_blank"
-                rel="noopener"
-                >See on GitHub</a
-              >
-            </div>
-            <div class="card rv">
-              <h3>Your project name</h3>
-              <p>
-                Replace this card with a project of yours: what it does and what
-                you built.
-              </p>
-              <div class="tags"><span>React</span><span>CSS</span></div>
-              <a
-                class="plink"
-                href="https://github.com/som3a-Kh"
-                target="_blank"
-                rel="noopener"
-                >See on GitHub</a
-              >
-            </div>
-            <div class="card rv">
-              <h3>Your project name</h3>
-              <p>Add a live demo link and a short description here.</p>
-              <div class="tags"><span>JavaScript</span><span>API</span></div>
-              <a
-                class="plink"
-                href="https://github.com/som3a-Kh"
-                target="_blank"
-                rel="noopener"
-                >See on GitHub</a
-              >
-            </div>
-          </div>
-          <p class="rv" style="margin-top: 30px">
-            <a
-              class="btn"
-              href="https://github.com/som3a-Kh"
-              target="_blank"
-              rel="noopener"
-              >All projects on GitHub</a
-            >
+    <section id="about">
+      <div class="wrap about">
+        <div class="rv">
+          <h2>About me</h2>
+          <p>
+            I'm Ismail Khalifa, a Backend Developer specializing in PHP and
+            Laravel. I build reliable web applications, design databases,
+            develop RESTful APIs, and implement authentication systems. <br />
+            With a background in frontend development using React, I
+            understand how to connect user interfaces with backend systems to
+            deliver complete web solutions. <br />
+            I'm always focused on writing clean, maintainable code and
+            building practical solutions to real-world problems.
           </p>
         </div>
-      </section>
-
-      <section id="skills">
-        <div class="wrap">
-          <h2 class="rv">Skills</h2>
-          <div class="marquee rv"><div class="track" id="track"></div></div>
-          <div class="grid rv" id="bars">
-            <div>
-              <div class="bar" style="--w: 92%">
-                <div><span>HTML and CSS</span><span>92%</span></div>
-                <i></i>
-              </div>
-              <div class="bar" style="--w: 85%">
-                <div><span>JavaScript</span><span>85%</span></div>
-                <i></i>
-              </div>
-              <div class="bar" style="--w: 80%">
-                <div><span>React</span><span>80%</span></div>
-                <i></i>
-              </div>
-            </div>
-            <div>
-              <div class="bar" style="--w: 70%">
-                <div><span>PHP and Laravel</span><span>70%</span></div>
-                <i></i>
-              </div>
-              <div class="bar" style="--w: 75%">
-                <div><span>Git and GitHub</span><span>75%</span></div>
-                <i></i>
-              </div>
-              <div class="bar" style="--w: 65%">
-                <div><span>Python and AI basics</span><span>65%</span></div>
-                <i></i>
-              </div>
-            </div>
+        <div class="rv card">
+          <h3>What I focus on</h3>
+          <p>
+            Building secure and efficient backend systems with PHP and
+            Laravel, designing databases, developing RESTful APIs, and
+            implementing authentication to power reliable web applications.
+          </p>
+          <div class="tags">
+            <span>PHP</span><span>Laravel</span><span>MySQL</span><span>REST APIs</span>
+            <span>Authentication</span>
+            <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
+            <span>TypeScript</span> <span>React</span> <span>bootstrap</span>
+            <span>Tailwind</span> <span>Responsive Design</span>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="experience">
-        <div class="wrap">
-          <h2 class="rv">Experience and education</h2>
-          <p class="sub rv"></p>
-          <div class="tl rv">
-            <article>
-              <small>Now</small>
-              <h3>Frontend Developer Trainee, Bravo Tech</h3>
-              <p>
-                Building and improving user interfaces in a real team setting.
-              </p>
-            </article>
-            <article>
-              <small>NTI</small>
-              <h3>Full Stack Course</h3>
-              <p>
-                React on the frontend and PHP Laravel on the backend, ending
-                with a team project.
-              </p>
-            </article>
-            <article>
-              <small>University</small>
-              <h3>B.Sc. Artificial Intelligence, Zagazig University</h3>
-              <p>Third year at the Faculty of Computers and Information.</p>
-            </article>
-          </div>
-          <div class="card cert rv" style="margin-top: 20px">
-            <div>
-              <h3>NTI Full Stack Certificate</h3>
-              <p>
-                Completed the full stack development track: React and Laravel.
-              </p>
-            </div>
-            <a
-              class="btn"
-              href="images/nti-certificate.jpg"
-              target="_blank"
-              rel="noopener"
-              >View certificate</a
-            >
-          </div>
-        </div>
-      </section>
+    <section id="services">
+      <div class="wrap">
+        <h2 class="rv">Services</h2>
+        <p class="sub rv">
+          Backend solutions to power your web applications.
+        </p>
+        <div class="grid">
+          <div class="card rv">
+            <div class="ic">⚙️</div>
 
-      <section id="contact">
-        <div class="wrap contact">
-          <div class="rv">
-            <h2>Let's work together</h2>
-            <p class="sub">
-              Have a project or a role in mind? Send me a message.
+            <h3>Backend Development</h3>
+            <p>
+              Building dynamic and reliable backend systems using PHP and
+              Laravel to power modern web applications.
             </p>
-            <div class="soc">
-              <a href="som3a2898@gmail.com">som3a2898@gmail.com</a
-              ><a
-                href="https://github.com/som3a-Kh"
-                target="_blank"
-                rel="noopener"
-                >github.com/som3a-Kh</a
-              ><a
-                href="https://www.linkedin.com/in/ismail-khalifa-701a072a5"
-                target="_blank"
-                rel="noopener"
-                >LinkedIn</a
-              >
+          </div>
+          <div class="card rv">
+            <div class="ic">🗄️</div>
+            <h3>Database Design</h3>
+            <p>
+              Designing and managing MySQL databases to organize data
+              efficiently and maintain reliable relationships between tables.
+            </p>
+          </div>
+          <div class="card rv">
+            <div class="ic">🔌</div>
+            <h3>RESTful API Development</h3>
+            <p>
+              Developing APIs that connect frontend applications with backend
+              systems and enable smooth data exchange.
+            </p>
+          </div>
+          <div class="card rv">
+            <div class="ic">🔐</div>
+            <h3>Authentication</h3>
+            <p>
+              Implementing secure authentication systems to protect your web
+              applications and user data.
+            </p>
+          </div>
+
+          <div class="card rv">
+            <div class="ic">⚛️</div>
+            <h3>Frontend Integration</h3>
+            <p>
+              Connecting React interfaces to Laravel backends and integrating
+              APIs to create functional web applications.
+            </p>
+          </div>
+
+          <div class="card rv">
+            <div class="ic">📱</div>
+            <h3>Responsive design</h3>
+            <p>
+              Layouts that work on phones, tablets and desktops, with dark and
+              light themes.
+            </p>
+          </div>
+
+          <div class="card rv">
+            <div class="ic">🛠️</div>
+            <h3>Fixes and improvements</h3>
+            <p>
+              Identifying and fixing backend issues, improving code quality,
+              and maintaining existing PHP and Laravel applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <h2 class="rv">Projects</h2>
+        <p class="sub rv">Selected work. More on my GitHub.</p>
+        <div class="grid">
+          <div class="card rv">
+            <h3>Gym Dashboard (NTI team project)</h3>
+            <p>
+              A gym management dashboard built with a team during the NTI
+              program. I built the backend login and signup (authentication).
+            </p>
+            <div class="tags">
+              <span>Auth</span><span>Backend</span><span>Team project</span>
+            </div>
+            <a class="plink" href="https://github.com/som3a-Kh" target="_blank" rel="noopener">See on GitHub</a>
+          </div>
+          <div class="card rv">
+            <h3>Your project name</h3>
+            <p>
+              Replace this card with a project of yours: what it does and what
+              you built.
+            </p>
+            <div class="tags"><span>React</span><span>CSS</span></div>
+            <a class="plink" href="https://github.com/som3a-Kh" target="_blank" rel="noopener">See on GitHub</a>
+          </div>
+          <div class="card rv">
+            <h3>Your project name</h3>
+            <p>Add a live demo link and a short description here.</p>
+            <div class="tags"><span>JavaScript</span><span>API</span></div>
+            <a class="plink" href="https://github.com/som3a-Kh" target="_blank" rel="noopener">See on GitHub</a>
+          </div>
+        </div>
+        <p class="rv" style="margin-top: 30px">
+          <a class="btn" href="https://github.com/som3a-Kh" target="_blank" rel="noopener">All projects on GitHub</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <h2 class="rv">Skills</h2>
+        <div class="marquee rv">
+          <div class="track" id="track"></div>
+        </div>
+        <div class="grid rv" id="bars">
+          <div>
+            <div class="bar" style="--w: 90%">
+              <div><span>PHP</span><span>90%</span></div>
+              <i></i>
+            </div>
+
+            <div class="bar" style="--w: 85%">
+              <div><span>Laravel</span><span>85%</span></div>
+              <i></i>
+            </div>
+
+            <div class="bar" style="--w: 85%">
+              <div><span>OOP in PHP</span><span>85%</span></div>
+              <i></i>
+            </div>
+
+            <div class="bar" style="--w: 80%">
+              <div><span>MySQL & Database Design</span><span>80%</span></div>
+              <i></i>
+            </div>
+            <div class="bar" style="--w: 80%">
+              <div><span>RESTful APIs</span><span>80%</span></div>
+              <i></i>
             </div>
           </div>
-          <form class="rv" id="form">
-            <input name="n" placeholder="Your name" required /><input
-              name="e"
-              type="email"
-              placeholder="Your email"
-              required
-            /><textarea
-              name="m"
-              rows="5"
-              placeholder="Your message"
-              required
-            ></textarea
-            ><button class="btn solid" type="submit">Send message</button>
-          </form>
-        </div>
-      </section>
-    </main>
-    <footer>
-      © <span id="yr"></span> Ismail Khalifa. Built with HTML, CSS and
-      JavaScript.
-    </footer>
+          <div>
+            <div class="bar" style="--w: 92%">
+              <div><span>HTML & CSS</span><span>92%</span></div>
+              <i></i>
+            </div>
 
-    <script src="main.js"></script>
-  </body>
+            <div class="bar" style="--w: 85%">
+              <div><span>JavaScript</span><span>85%</span></div>
+              <i></i>
+            </div>
+            <div class="bar" style="--w: 80%">
+              <div><span>React</span><span>80%</span></div>
+              <i></i>
+            </div>
+            <div class="bar" style="--w: 70%">
+              <div><span>TypeScript</span><span>70%</span></div>
+              <i></i>
+            </div>
+            <div class="bar" style="--w: 75%">
+              <div><span>Git & GitHub</span><span>75%</span></div>
+              <i></i>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="wrap">
+        <h2 class="rv">Experience and education</h2>
+        <p class="sub rv"></p>
+        <div class="tl rv">
+          <article>
+            <small>Now</small>
+            <h3>Frontend Developer Trainee, Bravo Tech</h3>
+            <p>
+              Building and improving user interfaces in a real team setting.
+            </p>
+          </article>
+          <article>
+            <small>NTI</small>
+            <h3>Full Stack Course</h3>
+            <p>
+              React on the frontend and PHP Laravel on the backend, ending
+              with a team project.
+            </p>
+          </article>
+          <article>
+            <small>University</small>
+            <h3>B.Sc. Artificial Intelligence, Zagazig University</h3>
+            <p>Third year at the Faculty of Computers and Information.</p>
+          </article>
+        </div>
+        <div class="card cert rv" style="margin-top: 20px">
+          <div>
+            <h3>NTI Full Stack Certificate</h3>
+            <p>
+              Completed the full stack development track: React and Laravel.
+            </p>
+          </div>
+          <a class="btn" href="Certificate/NTI.png" target="_blank" rel="noopener">View certificate</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap contact">
+        <div class="rv">
+          <h2>Let's work together</h2>
+          <p class="sub">
+            Have a project or a role in mind? Send me a message.
+          </p>
+          <div class="soc">
+            <a href="som3a2898@gmail.com">som3a2898@gmail.com</a><a href="https://github.com/som3a-Kh" target="_blank"
+              rel="noopener">github.com/som3a-Kh</a><a href="https://www.linkedin.com/in/ismail-khalifa-701a072a5"
+              target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+        <form class="rv" id="form">
+          <input name="n" placeholder="Your name" required /><input name="e" type="email" placeholder="Your email"
+            required /><textarea name="m" rows="5" placeholder="Your message" required></textarea><button
+            class="btn solid" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    © <span id="yr"></span> Ismail Khalifa. Built with HTML, CSS and
+    JavaScript.
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
 </html>
