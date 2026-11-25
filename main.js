@@ -23,7 +23,7 @@ document
   .forEach((a) => (a.onclick = () => $("#links").classList.remove("open")));
 // typing
 const roles = [
-  "Frontend Developer",
+  "Full-Stack Developer",
   "Backend Developer",
 ];
 let ri = 0,
